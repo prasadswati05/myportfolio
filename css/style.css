@@ -1,0 +1,343 @@
+.logoimg {
+    width: 115px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(24 3 88);
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.about {
+    padding: 85px 0px;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: auto;
+    color: #1e2738;
+    text-shadow: rgb(22 21 21 / 46%) 0px 3px 6px, rgb(0 0 0 / 39%) 0px 3px 6px;
+}
+
+.about p {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #1e2738;
+    border-color: #6c757d;
+    padding: 15px;
+}
+
+.about .dbtn {
+    margin-top: 30px;
+}
+
+/* Education Section Styles */
+.education {
+    /* background-image: url(../images/sbg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay; */
+    /* background-color: #323334a6;     */
+    padding: 10px 0px 30px 0px;
+}
+
+.education h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: auto;
+    color: #fff;
+    text-shadow: rgb(234 226 226 / 46%) 0px 3px 6px, rgb(255 245 245 / 39%) 0px 3px 6px;
+}
+
+.education .row {
+    margin-top: 30px;
+}
+
+.education .col-md-4 {
+    text-align: center;
+
+
+}
+
+.education .edu-box {
+    padding: 30px;
+}
+
+.education .edu-box:hover {
+    box-shadow: rgba(120, 119, 119, 0.4) 0px 2px 4px, rgba(159, 157, 157, 0.3) 0px 7px 13px -3px, rgba(144, 142, 142, 0.2) 0px -3px 0px inset;
+    background-color: #283452;
+}
+
+
+.education h5 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.education p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: auto;
+    color: #1e2738;
+    text-shadow: rgb(22 21 21 / 46%) 0px 3px 6px, rgb(0 0 0 / 39%) 0px 3px 6px;
+}
+
+.exp-project h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: auto;
+    color: #1e2738;
+    padding: 25px 0px;
+    text-shadow: rgb(22 21 21 / 46%) 0px 3px 6px, rgb(0 0 0 / 39%) 0px 3px 6px;
+}
+
+.exp-project .product_img {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.experience-sec {
+    border-right: 2px solid #F44336;
+    padding: 0px 25px 10px 0px;
+}
+
+.experience-item {
+    margin-bottom: 40px;
+}
+
+
+
+/* Skills Section Styles */
+
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #8e44ad;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.content {
+    flex: 1;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.date {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Skills section CSS */
+.skills {
+
+    width: 100%;
+    padding: 40px 0;
+}
+
+.skill-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+
+
+
+
+.skills-content {
+    display: flex;
+}
+
+.skills-content .col-6 {
+    width: 48%;
+    position: relative;
+}
+
+.skills-content h4,
+.skills-content h5 {
+    color: #0f0808;
+    margin-bottom: 10px;
+}
+
+.skills-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.skills-content ul li {
+    background: #efefefab;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+/* Timeline CSS */
+.timeline {
+    position: relative;
+    margin-top: 20px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    width: 2px;
+    background-color: #8e44ad;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background-color: #8e44ad;
+    border-radius: 50%;
+}
+
+.timeline-item ul {
+    margin-top: 10px;
+}
+
+.contact {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+
+.contact-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item {
+    background: #f1f1f1;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icon-box {
+    flex: 0 0 50px;
+    margin-right: 15px;
+}
+
+.icon-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-box h4 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.text-box a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.text-box a:hover {
+    color: #0056b3;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: auto;
+    color: #1e2738;
+    padding: 25px 0px;
+    text-shadow: rgb(22 21 21 / 46%) 0px 3px 6px, rgb(0 0 0 / 39%) 0px 3px 6px;
+}
+
+.fotter {
+    padding: 20px 0px;
+    background-color: #1e2738;
+}
+
+.fotter p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.skil_edu {
+    padding-top: 30px;    
+    border-radius: 90px 90px 0px 0px;
+    background-image: url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #2d2c2cc4;
+}
+.contact{
+    background-image: url(../images/contact_bg.jpg);
+    background-size: cover;
+}
+.exp-project{
+    padding-top: 30px;    
+    padding-bottom: 70px;
+}
